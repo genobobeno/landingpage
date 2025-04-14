@@ -1,22 +1,31 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Ultra, Playfair_Display, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+
+const ultra = Ultra({ 
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['400'],
+  variable: '--font-heading',
+})
 
 const playfair = Playfair_Display({ 
   subsets: ['latin'],
   display: 'swap',
-  weight: ['400', '500'],
-  style: ['normal'],
+  weight: ['400', '700'],
+  variable: '--font-subheading',
 })
 
-const inter = Inter({ 
+const spaceGrotesk = Space_Grotesk({ 
   subsets: ['latin'],
   display: 'swap',
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-body',
 })
 
 export const metadata: Metadata = {
-  title: "vibedev.ai",
-  description: "Experience the new way of coding with vibedev.ai. Transform your development workflow and vibe with your code like never before.",
+  title: "PhD2Pro",
+  description: "Master the transition from academia to industry with our proven framework",
   icons: {
     icon: [
       {
@@ -38,19 +47,8 @@ export const metadata: Metadata = {
       }
     ],
     shortcut: [{ url: "/images/idevibelogo.png" }],
-    other: [
-      {
-        rel: "icon",
-        url: "/images/idevibelogo.png",
-      },
-    ],
   },
-  manifest: "/manifest.json",
-  viewport: {
-    width: 'device-width',
-    initialScale: 1
-  }
-};
+}
 
 export default function RootLayout({
   children,
@@ -58,14 +56,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="dark">
-      <head>
-        <link rel="icon" type="image/png" sizes="32x32" href="/images/idevibelogo.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/images/idevibelogo.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/images/idevibelogo.png" />
-        <link rel="manifest" href="/manifest.json" />
-      </head>
-      <body className={`${inter.className} bg-black bg-dotted-grid`}>{children}</body>
+    <html lang="en" className={`${ultra.variable} ${playfair.variable} ${spaceGrotesk.variable}`}>
+      <body className="bg-off-white">{children}</body>
     </html>
-  );
+  )
 }

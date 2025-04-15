@@ -11,7 +11,7 @@ const SignupForm: React.FC = () => {
           <iframe 
             aria-label="PhD2Pro Landing Page" 
             frameBorder="0" 
-            style={{ height: '530px', width: '100%', border: 'none' }}
+            style={{ height: '550px', width: '100%', border: 'none' }}
             src="https://forms.zohopublic.com/helloeugen1/form/PhD2ProLandingPage/formperma/bBcqOVbgS9ZORYCYseVXuso5MyGCAFdBAi6Z1siZsdM"
           />
         </div>

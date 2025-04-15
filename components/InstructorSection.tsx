@@ -21,7 +21,7 @@ const InstructorSection: React.FC = () => {
               transition={{ duration: 0.8 }}
               className="relative flex justify-center order-2 md:order-1"
             >
-              <div className="relative w-full max-w-sm aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
+              <div className="relative w-full max-w-sm aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl border-8 border-[#4D3072]">
                 <Image
                   src="/images/SmudgeGrad.PNG"
                   alt="PhD2Pro Instructor"
@@ -48,12 +48,20 @@ const InstructorSection: React.FC = () => {
               <p className="text-sm text-[#4D3072] font-body">
                 GPT-4o: Meet the Multidimensional Maverick: Eugene Geis! Rocket scientist? Check. Wrestling coach? Check. Wishful architect of modern narratives? Double check. With two PhDs (because one wasn&apos;t enough), a knack for reframing reality like it&apos;s The Matrix, and a passion for building communities from the ground up, Eugene applies grit. From teaching high school physics (and winning Model UN championships) to leading cutting-edge DS teams in healthcare, insurance, and fintech, Eugene has seen plenty—and probably modeled it in R. Eugene is looking to help whoever is on a mission to reinvent how they think, collaborate, and thrive—whether it&apos;s mentoring tomorrow&apos;s leaders, creating AI/ML/DS products, or hacking our human story itself.
               </p>
-              <div className="flex justify-start">
+              <div className="flex flex-wrap gap-4 justify-start">
                 <a
                   href="https://phd2pro.teachable.com/"
                   className="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-[#4D3072] rounded-full hover:bg-[#3D2052] transition-colors"
                 >
                   Start Your Journey
+                </a>
+                <a
+                  href="https://eugenegeis.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3 text-lg font-medium text-[#4D3072] bg-transparent border-2 border-[#4D3072] rounded-full hover:bg-[#4D3072] hover:text-white transition-colors"
+                >
+                  More About Eugene
                 </a>
               </div>
             </motion.div>

@@ -98,7 +98,7 @@ const Navbar: React.FC = () => {
               Contact
             </button>
             <a
-              href="#signup"
+              href="https://phd2pro.teachable.com/"
               className="bg-[#295E37] text-white px-6 py-1.5 rounded-full text-lg font-body hover:bg-[#73A47F] transition-colors duration-300"
             >
               Explore The Course
@@ -147,7 +147,7 @@ const Navbar: React.FC = () => {
               Contact
             </button>
             <a
-              href="#signup"
+              href="https://phd2pro.teachable.com/"
               className="block w-full text-center bg-[#295E37] text-white px-6 py-2 rounded-full text-lg font-body hover:bg-[#73A47F] transition-colors duration-300"
             >
               Explore The Course

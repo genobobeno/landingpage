@@ -45,9 +45,9 @@ const InstructorSection: React.FC = () => {
               <p className="text-sm text-[#4D3072] font-body">
                 I am the first generation in my family to go to college, and my parents were very blue collar. Before I began my PhD, I taught middle school science. 
                 I loved it, but I realized that I wanted to know more and so I pursued grad school. Six years later with a PhD in 
-                <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.101.042501">experimental particle physics</a>, I went back to teaching science in a high school. 
+                <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.101.042501" className="text-[#295E37] underline hover:text-[#4D3072] transition-colors duration-300">experimental particle physics</a>, I went back to teaching science in a high school. 
                 My imposter syndrome was so bad that those 6 years changed little-to-nothing. Five years later, my post-grad uncertainty was not getting much better. 
-                I was so unsure of my path that I completely rearranged my plans and went back to grad school <b>AGAIN</b> for a <a href="https://arxiv.org/abs/1912.12755">second PhD</a>. 
+                I was so unsure of my path that I completely rearranged my plans and went back to grad school <b>AGAIN</b> for a <a href="https://arxiv.org/abs/1912.12755" className="text-[#295E37] underline hover:text-[#4D3072] transition-colors duration-300">second PhD</a>. 
                 But this time, I was determined to change everything. It has been about 15 years since that decision to change my life. I have been a ditch digger, a teacher, a teaching assistant, 
                 a research consultant, a wrestling coach, a debate coach, a predictive risk modeler, a tech manager, a fintech marketing executive, a bioinformatician, and an AI 
                 product manager. I have received countless hours of business coaching and have made more miscalculations than I care to admit. In the last few years, I put months of thought

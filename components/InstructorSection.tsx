@@ -43,17 +43,25 @@ const InstructorSection: React.FC = () => {
                 Meet Your Instructor
               </h2>
               <p className="text-sm text-[#4D3072] font-body">
-                Hey ChatGPT: Take all of the data from our previous interactions and write me a sexy marketing pitch as the instructor for my PhD2Pro course!
-              </p>
-              <p className="text-sm text-[#4D3072] font-body">
-                GPT-4o: Meet the Multidimensional Maverick: Eugene Geis! Rocket scientist? Check. Wrestling coach? Check. Wishful architect of modern narratives? Double check. With two PhDs (because one wasn&apos;t enough), a knack for reframing reality like it&apos;s The Matrix, and a passion for building communities from the ground up, Eugene applies grit. From teaching high school physics (and winning Model UN championships) to leading cutting-edge DS teams in healthcare, insurance, and fintech, Eugene has seen plenty—and probably modeled it in R. Eugene is looking to help whoever is on a mission to reinvent how they think, collaborate, and thrive—whether it&apos;s mentoring tomorrow&apos;s leaders, creating AI/ML/DS products, or hacking our human story itself.
-              </p>
+                I am the first generation in my family to go to college, and my parents were very blue collar. Before I began my PhD, I taught middle school science. 
+                I loved it, but I realized that I wanted to know more and so I pursued grad school. Six years later with a PhD in 
+                <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.101.042501">experimental particle physics</a>, I went back to teaching science in a high school. 
+                My imposter syndrome was so bad that those 6 years changed little-to-nothing. Five years later, my post-grad uncertainty was not getting much better. 
+                I was so unsure of my path that I completely rearranged my plans and went back to grad school <b>AGAIN</b> for a <a href="https://arxiv.org/abs/1912.12755">second PhD</a>. 
+                But this time, I was determined to change everything. It has been about 15 years since that decision to change my life. I have been a ditch digger, a teacher, a teaching assistant, 
+                a research consultant, a wrestling coach, a debate coach, a predictive risk modeler, a tech manager, a fintech marketing executive, a bioinformatician, and an AI 
+                product manager. I have received countless hours of business coaching and have made more miscalculations than I care to admit. In the last few years, I put months of thought
+                into this course, and I am excited to share it with you. Why? Because if I could go back in time and teach my 28yo self a few lessons, 90 percent of that content is
+                in this course. You are not going to find all of this information at a cheaper price anywhere else on the internet. I made it cheap on purpose. This is about helping
+                people like you to leapfrog the 15-20 years I spent figuring most of this out. The material is designed for anyone along the spectrum from (A) having some graduate training 
+                with strong uncertainties about how to begin your job search, through (B) post-grads who are already a year or more into their first job. 
+                <a href="https://phd2pro.teachable.com">Check out the entire 20-plus hours of business education here</a>.</p>
               <div className="flex flex-wrap gap-4 justify-start">
                 <a
                   href="https://phd2pro.teachable.com/"
                   className="inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-[#4D3072] rounded-full hover:bg-[#3D2052] transition-colors"
                 >
-                  Start Your Journey
+                  Start The Course!
                 </a>
                 <a
                   href="https://eugenegeis.com"

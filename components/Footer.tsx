@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
         <div className="footer-right">
           <Link href="https://phd2pro.teachable.com/l/products">Products</Link>
           <Link href="https://linkedin.com/in/eugenegeis" target="_blank">LinkedIn</Link>
-          <Link href="https://phd2pro.teachable.com" target="_blank">Course</Link>
+          <Link href="https://phd2pro.teachable.com/p/phd2pro" target="_blank">Course</Link>
         </div>
       </div>
     </footer>

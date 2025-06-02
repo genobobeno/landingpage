@@ -37,7 +37,7 @@ const CTASection: React.FC = () => {
             Get access to the course and start building your career on your own terms.
           </p>
           <motion.a
-            href="https://phd2pro.teachable.com"
+            href="https://phd2pro.teachable.com/p/phd2pro"
             className="inline-flex items-center px-8 py-4 text-lg font-medium text-[#4D3072] bg-white rounded-full hover:bg-white/90 transition-colors duration-300"
             whileHover={{ scale: 1.05, boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.2)" }}
             whileTap={{ scale: 0.95 }}

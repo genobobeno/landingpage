@@ -27,7 +27,7 @@ const HeroSection: React.FC = () => {
                 <motion.a
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  href="https://phd2pro.teachable.com/"
+                  href="https://phd2pro.teachable.com/p/phd2pro"
                   className="bg-[#295E37] text-white px-8 py-3 rounded-full text-lg font-body hover:bg-[#73A47F] transition-colors duration-300 text-center"
                 >
                   Get Started

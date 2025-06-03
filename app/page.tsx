@@ -10,6 +10,7 @@ import SignupForm from '@/components/SignupForm'
 import CTASection from '@/components/CTASection'
 import Footer from '@/components/Footer'
 import ParticlesBackground from '@/components/ParticlesBackground'
+import CurriculumSection from '@/components/CurriculumSection'
 
 const Home: React.FC = () => {
   return (
@@ -22,6 +23,9 @@ const Home: React.FC = () => {
         <main>
           <section id="home" className="w-full">
             <HeroSection />
+          </section>
+          <section id="curriculum" className="w-full">
+            <CurriculumSection />
           </section>
           <section id="features" className="w-full">
             <FeaturesSection />

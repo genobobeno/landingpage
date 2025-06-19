@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Navbar from '@/components/Navbar'
 import HeroSection from '@/components/HeroSection'
 import FeaturesSection from '@/components/FeaturesSection'
@@ -11,8 +11,20 @@ import CTASection from '@/components/CTASection'
 import Footer from '@/components/Footer'
 import ParticlesBackground from '@/components/ParticlesBackground'
 import CurriculumSection from '@/components/CurriculumSection'
+import LaunchPopup from '@/components/LaunchPopup'
 
 const Home: React.FC = () => {
+  const [showPopup, setShowPopup] = useState(false)
+
+  useEffect(() => {
+    // Show popup after 2 seconds
+    const timer = setTimeout(() => {
+      setShowPopup(true)
+    }, 2000)
+
+    return () => clearTimeout(timer)
+  }, [])
+
   return (
     <div className="relative min-h-screen">
       <div className="fixed inset-0 -z-10">
@@ -43,6 +55,12 @@ const Home: React.FC = () => {
           <Footer />
         </main>
       </div>
+      
+      {/* Launch Popup */}
+      <LaunchPopup 
+        isOpen={showPopup} 
+        onClose={() => setShowPopup(false)} 
+      />
     </div>
   )
 }
